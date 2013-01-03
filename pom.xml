@@ -53,14 +53,14 @@
   </dependencies>
 
   <build>
-	<plugins>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-compiler-plugin</artifactId>
-		<configuration>
-			<source>1.5</source>
-			<target>1.5</target>
-		</configuration>
-	</plugins>
+    <plugins>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+            <source>1.5</source>
+            <target>1.5</target>
+        </configuration>
+    </plugins>
   </build>
 
 </project>
