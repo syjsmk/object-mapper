@@ -310,7 +310,7 @@ public class ObjectMapperTest {
 		
 		//props -> map이랑 비슷하게 생긴거임.
 		properties.load(new FileReader("person.properties"));
-		properties.loadFromXML(new FileInputStream("Person.xml"));
+		properties.loadFromXML(new FileInputStream("person.xml"));
 		
 		String level = properties.getProperty("level", "1");
 		Object name = properties.get("name"); 
