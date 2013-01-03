@@ -47,8 +47,7 @@
 		<groupId>org.apache.httpcomponents</groupId>
 		<artifactId>httpasyncclient</artifactId>
 		<version>4.0-beta3</version>
-	</dependency>
-    <build>
+	</dependency><build>
   <plugins>
      <plugin>
      <groupId>org.apache.maven.plugins</groupId>
